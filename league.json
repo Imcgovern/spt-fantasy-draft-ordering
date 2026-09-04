@@ -1,0 +1,30 @@
+{
+  "league": "SPT Fantasy",
+  "season": 2026,
+  "commissioner": "Truffy",
+  "note": "Slots 1-3 and 10 are locked. Only the two replacement managers can move; the four returning managers in 4-7 never move up and never change their order relative to each other, they only slide down when a newcomer is inserted above them. Slots 8 and 9 are the teams vacated by Zach and Nate, assigned to the replacements by dice before the lottery runs.",
+
+  "standings": [
+    { "slot": 1,  "team": "Chinga Tu Madre",           "manager": "Anthony",  "locked": true  },
+    { "slot": 2,  "team": "This Schmidt Hurts",        "manager": "Kaleb",    "locked": true  },
+    { "slot": 3,  "team": "Jerriatric Jones",          "manager": "Logan",    "locked": true  },
+    { "slot": 4,  "team": "Mongoose Mob",              "manager": "Brandon",  "locked": false },
+    { "slot": 5,  "team": "Fry Town Baconites",        "manager": "Chris",    "locked": false },
+    { "slot": 6,  "team": "Austin Doghouses",          "manager": "Ben",      "locked": false },
+    { "slot": 7,  "team": "QKV-Softmax-Championship",  "manager": "Isaac",    "locked": false },
+    { "slot": 8,  "team": "Wrangling Cheesesticks",    "manager": null, "vacated_by": "Zach", "locked": false },
+    { "slot": 9,  "team": "Blue Bell Blitz",           "manager": null, "vacated_by": "Nate", "locked": false },
+    { "slot": 10, "team": "Da Hood Futbol God",        "manager": "Fernando", "locked": true  }
+  ],
+
+  "replacement_managers": ["Ryan", "Daniel"],
+
+  "lottery_slots": [4, 5, 6, 7, 8, 9],
+
+  "veteran_hold_targets": {
+    "4": 0.90,
+    "5": 0.80,
+    "6": 0.70,
+    "7": 0.60
+  }
+}
