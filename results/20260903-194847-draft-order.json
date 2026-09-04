@@ -1,0 +1,139 @@
+{
+  "league": "SPT Fantasy",
+  "season": 2026,
+  "generated_at": "2026-09-03T19:48:47",
+  "seed_phrase": "Feb3rd1984",
+  "seed_sha256": "7bb8528f3bbd16df3e87a3261b7fa70a327bb44e30480899d2c90983e93a6b1d",
+  "veteran_hold_targets": {
+    "4": 0.9,
+    "5": 0.8,
+    "6": 0.7,
+    "7": 0.6
+  },
+  "promotion_ladder": {
+    "landing": {
+      "4": 0.05131670194948623,
+      "5": 0.05425610705059791,
+      "6": 0.05776716446584029,
+      "7": 0.06206335729259216
+    },
+    "stay": 0.7745966692414834
+  },
+  "dice": {
+    "rounds": [
+      {
+        "Ryan": [
+          4,
+          6,
+          10
+        ],
+        "Daniel": [
+          6,
+          3,
+          9
+        ]
+      }
+    ],
+    "ties": 0,
+    "assigned": {
+      "8": "Ryan",
+      "9": "Daniel"
+    }
+  },
+  "promotion_rolls": [
+    {
+      "seat": 8,
+      "roll": 0.41165538501930343,
+      "landed": null
+    },
+    {
+      "seat": 9,
+      "roll": 0.20607961979851575,
+      "landed": 7
+    }
+  ],
+  "collision": null,
+  "promotions": {
+    "9": 7
+  },
+  "seat_to_slot": {
+    "9": 7,
+    "8": 9,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 8
+  },
+  "final_order": [
+    {
+      "pick": 1,
+      "team": "Chinga Tu Madre",
+      "manager": "Anthony",
+      "was": 1,
+      "locked": true
+    },
+    {
+      "pick": 2,
+      "team": "This Schmidt Hurts",
+      "manager": "Kaleb",
+      "was": 2,
+      "locked": true
+    },
+    {
+      "pick": 3,
+      "team": "Jerriatric Jones",
+      "manager": "Logan",
+      "was": 3,
+      "locked": true
+    },
+    {
+      "pick": 4,
+      "team": "Mongoose Mob",
+      "manager": "Brandon",
+      "was": 4,
+      "locked": false
+    },
+    {
+      "pick": 5,
+      "team": "Fry Town Baconites",
+      "manager": "Chris",
+      "was": 5,
+      "locked": false
+    },
+    {
+      "pick": 6,
+      "team": "Austin Doghouses",
+      "manager": "Ben",
+      "was": 6,
+      "locked": false
+    },
+    {
+      "pick": 7,
+      "team": "Blue Bell Blitz",
+      "manager": "Daniel",
+      "was": 9,
+      "locked": false
+    },
+    {
+      "pick": 8,
+      "team": "QKV-Softmax-Championship",
+      "manager": "Isaac",
+      "was": 7,
+      "locked": false
+    },
+    {
+      "pick": 9,
+      "team": "Wrangling Cheesesticks",
+      "manager": "Ryan",
+      "was": 8,
+      "locked": false
+    },
+    {
+      "pick": 10,
+      "team": "Da Hood Futbol God",
+      "manager": "Fernando",
+      "was": 10,
+      "locked": true
+    }
+  ]
+}
